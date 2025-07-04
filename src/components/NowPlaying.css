@@ -1,0 +1,24 @@
+.now-playing-widget {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  box-shadow: 0 0 20px rgba(255,255,255,0.05);
+}
+
+.now-playing-widget img {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+}
+
+.now-playing-placeholder {
+  color: #999;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
