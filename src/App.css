@@ -344,8 +344,39 @@ body {
     top: auto;
     margin: 2rem auto;
   }
+}
 
-  .glass-section {
+/* App.css */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem 1.2rem;
+  justify-content: center;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill-badge {
+  background: linear-gradient(90deg, #232b3e 60%, #00ffee33 100%);
+  color: #00ffee;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px #00ffee22;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-bottom: 0.2rem;
+}
+.skill-badge:hover {
+  transform: scale(1.08) rotate(-2deg);
+  box-shadow: 0 4px 16px #00ffee55;
+  background: linear-gradient(90deg, #00ffee55 0%, #232b3e 100%);
+}
+
+.glass-section {
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 1rem;
@@ -376,5 +407,4 @@ body {
 a {
   color: #00ffee;
   text-decoration: none;
-}
 }
