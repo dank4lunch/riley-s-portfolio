@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/riley-s-portfolio/static/css/main.57f4f5cc.css",
+    "main.js": "/riley-s-portfolio/static/js/main.dc423151.js",
+    "static/js/488.2894d929.chunk.js": "/riley-s-portfolio/static/js/488.2894d929.chunk.js",
+    "index.html": "/riley-s-portfolio/index.html",
+    "main.57f4f5cc.css.map": "/riley-s-portfolio/static/css/main.57f4f5cc.css.map",
+    "main.dc423151.js.map": "/riley-s-portfolio/static/js/main.dc423151.js.map",
+    "488.2894d929.chunk.js.map": "/riley-s-portfolio/static/js/488.2894d929.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57f4f5cc.css",
+    "static/js/main.dc423151.js"
+  ]
+}
