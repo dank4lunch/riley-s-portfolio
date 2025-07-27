@@ -226,7 +226,21 @@ const Projects = () => (
         </div>
         <div className="project-grid">
           <div className="project-card featured animated-paragraph" style={{ animationDelay: '0.4s' }}>
-            <div className="project-image townscaper-bg"></div>
+            <a
+              href="https://oskarstalberg.com/Townscaper"
+              className="project-image-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://images.pexels.com/photos/415687/pexels-photo-415687.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Colorful traditional houses representing Townscaper's procedural city building"
+                className="project-image"
+              />
+              <div className="image-overlay">
+                <span className="overlay-text">🏘️ Explore Townscaper</span>
+              </div>
+            </a>
             <div className="project-content">
               <div className="project-tags">
                 <span className="tag procedural">Procedural</span>
@@ -254,7 +268,21 @@ const Projects = () => (
           </div>
 
           <div className="project-card animated-paragraph" style={{ animationDelay: '0.6s' }}>
-            <div className="project-image flowith-bg"></div>
+            <a
+              href="https://flowith.io/blank"
+              className="project-image-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Digital code projections representing AI-powered coding assistant"
+                className="project-image"
+              />
+              <div className="image-overlay">
+                <span className="overlay-text">🤖 Try flowith</span>
+              </div>
+            </a>
             <div className="project-content">
               <div className="project-tags">
                 <span className="tag ai">AI-Powered</span>
@@ -282,7 +310,19 @@ const Projects = () => (
           </div>
 
           <div className="project-card animated-paragraph" style={{ animationDelay: '0.8s' }}>
-            <div className="project-image task-manager-bg"></div>
+            <Link
+              to="/task-manager"
+              className="project-image-link"
+            >
+              <img
+                src="https://images.pexels.com/photos/892757/pexels-photo-892757.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Productivity app interface on smartphone"
+                className="project-image"
+              />
+              <div className="image-overlay">
+                <span className="overlay-text">📋 Launch App</span>
+              </div>
+            </Link>
             <div className="project-content">
               <div className="project-tags">
                 <span className="tag webapp">Web App</span>
@@ -302,7 +342,21 @@ const Projects = () => (
           </div>
 
           <div className="project-card animated-paragraph" style={{ animationDelay: '1.0s' }}>
-            <div className="project-image geofs-bg"></div>
+            <a
+              href="https://geo-fs.com/"
+              className="project-image-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://images.pexels.com/photos/29053115/pexels-photo-29053115.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Vintage aircraft cockpit with analog gauges"
+                className="project-image"
+              />
+              <div className="image-overlay">
+                <span className="overlay-text">✈️ Take Flight</span>
+              </div>
+            </a>
             <div className="project-content">
               <div className="project-tags">
                 <span className="tag simulation">Simulation</span>
@@ -329,7 +383,21 @@ const Projects = () => (
           </div>
 
           <div className="project-card animated-paragraph" style={{ animationDelay: '1.2s' }}>
-            <div className="project-image gamma-bg"></div>
+            <a
+              href="https://gamma.app"
+              className="project-image-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://images.pexels.com/photos/221185/pexels-photo-221185.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Digital interface on tablet representing presentation platform"
+                className="project-image"
+              />
+              <div className="image-overlay">
+                <span className="overlay-text">📊 Explore Gamma</span>
+              </div>
+            </a>
             <div className="project-content">
               <div className="project-tags">
                 <span className="tag ai">AI-Powered</span>
@@ -356,7 +424,21 @@ const Projects = () => (
           </div>
 
           <div className="project-card animated-paragraph" style={{ animationDelay: '1.4s' }}>
-            <div className="project-image motor-match-bg"></div>
+            <a
+              href="https://motormatchup.com/simulation"
+              className="project-image-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://images.pexels.com/photos/33175740/pexels-photo-33175740.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Racing motorcycle tire and suspension representing automotive simulation"
+                className="project-image"
+              />
+              <div className="image-overlay">
+                <span className="overlay-text">🏎️ Try Simulation</span>
+              </div>
+            </a>
             <div className="project-content">
               <div className="project-tags">
                 <span className="tag automotive">Automotive</span>
