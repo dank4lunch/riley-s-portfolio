@@ -209,49 +209,219 @@ const Projects = () => (
   <div className="space-page fade-in">
     <div className="stars"></div>
     <div className="twinkling"></div>
+    <div className="shooting-stars"></div>
     <div className="content">
-      <h2 className="animated-paragraph" style={{ animationDelay: '0s' }}>
-        My <span className="neon">Projects</span>
-      </h2>
-      <div className="project-grid animated-paragraph" style={{ animationDelay: '0.2s' }}>
-        <div className="project-card animated-paragraph" style={{ animationDelay: '0.4s' }}>
-          <div className="planet"></div>
-          <h3>flowith</h3>
-          <p>
-            <strong>flowith</strong> is an advanced AI-powered coding assistant, similar to Blackbox, that I built to help developers write, understand, and optimize code faster. It features real-time code suggestions, intelligent code search, and seamless integration into your workflow. Designed for productivity and ease of use, this tool empowers users to plan, code, and execute projects efficiently.
-          </p>
-          <a
-            href="https://flowith.io/blank"
-            className="space-button"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View WorkFlow Web App
-          </a>
+      <div className="projects-hero animated-paragraph" style={{ animationDelay: '0s' }}>
+        <h2>My <span className="neon">Digital</span> Universe</h2>
+        <p className="projects-subtitle">
+          Exploring the intersection of code, design, and creativity across multiple dimensions
+        </p>
+      </div>
+
+      {/* Development Projects */}
+      <section className="project-category animated-paragraph" style={{ animationDelay: '0.2s' }}>
+        <div className="category-header">
+          <h3><span className="category-icon">💻</span> Development Projects</h3>
+          <p>Full-stack applications and tools that solve real-world problems</p>
         </div>
-        <div className="project-card animated-paragraph" style={{ animationDelay: '0.6s' }}>
-          <div className="planet"></div>
-          <h3>Task Manager</h3>
-          <p>
-            A simple and effective app to manage your daily tasks and boost productivity.
-          </p>
-          <Link to="/task-manager" className="space-button">View Task Manager</Link>
+        <div className="project-grid">
+          <div className="project-card featured animated-paragraph" style={{ animationDelay: '0.4s' }}>
+            <div className="project-image townscaper-bg"></div>
+            <div className="project-content">
+              <div className="project-tags">
+                <span className="tag procedural">Procedural</span>
+                <span className="tag creative">Creative</span>
+              </div>
+              <h4>Townscaper</h4>
+              <p>
+                An elegant city-building tool that creates beautiful, procedural towns with simple clicks.
+                Experience the zen of creating colorful, organic cities that grow naturally from your imagination.
+              </p>
+              <div className="project-tech">
+                <span>Unity</span>
+                <span>Procedural Generation</span>
+                <span>3D Graphics</span>
+              </div>
+              <a
+                href="https://oskarstalberg.com/Townscaper"
+                className="space-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Explore Townscaper
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card animated-paragraph" style={{ animationDelay: '0.6s' }}>
+            <div className="project-image flowith-bg"></div>
+            <div className="project-content">
+              <div className="project-tags">
+                <span className="tag ai">AI-Powered</span>
+                <span className="tag productivity">Productivity</span>
+              </div>
+              <h4>flowith</h4>
+              <p>
+                Advanced AI coding assistant that revolutionizes development workflow with intelligent suggestions,
+                code optimization, and seamless integration.
+              </p>
+              <div className="project-tech">
+                <span>React</span>
+                <span>AI/ML</span>
+                <span>API Integration</span>
+              </div>
+              <a
+                href="https://flowith.io/blank"
+                className="space-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Try flowith
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card animated-paragraph" style={{ animationDelay: '0.8s' }}>
+            <div className="project-image task-manager-bg"></div>
+            <div className="project-content">
+              <div className="project-tags">
+                <span className="tag webapp">Web App</span>
+                <span className="tag react">React</span>
+              </div>
+              <h4>Cosmic Task Manager</h4>
+              <p>
+                Intuitive task management with space-themed UI, real-time updates, and productivity analytics.
+              </p>
+              <div className="project-tech">
+                <span>React</span>
+                <span>Local Storage</span>
+                <span>CSS Animations</span>
+              </div>
+              <Link to="/task-manager" className="space-button">Launch App</Link>
+            </div>
+          </div>
+
+          <div className="project-card animated-paragraph" style={{ animationDelay: '1.0s' }}>
+            <div className="project-image geofs-bg"></div>
+            <div className="project-content">
+              <div className="project-tags">
+                <span className="tag simulation">Simulation</span>
+                <span className="tag 3d">3D</span>
+              </div>
+              <h4>GeoFS Flight Simulator</h4>
+              <p>
+                Immersive browser-based flight simulation over real satellite imagery. No downloads required.
+              </p>
+              <div className="project-tech">
+                <span>WebGL</span>
+                <span>Real-time 3D</span>
+                <span>Satellite Data</span>
+              </div>
+              <a
+                href="https://geo-fs.com/"
+                className="space-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Take Flight
+              </a>
+            </div>
+          </div>
         </div>
-        <div className="project-card animated-paragraph" style={{ animationDelay: '0.8s' }}>
-          <div className="planet"></div>
-          <h3>GeoFS Flight Simulator</h3>
-          <p>
-            GeoFS is a free, browser-based flight simulator that lets you fly a variety of aircraft over real-world satellite maps. No installation needed—just open and fly! Great for casual flying, learning, or exploring the world from above.
-          </p>
-          <a
-            href="https://geo-fs.com/"
-            className="space-button"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Try GeoFS
-          </a>
+      </section>
+
+      {/* Design Projects */}
+      <section className="project-category animated-paragraph" style={{ animationDelay: '1.2s' }}>
+        <div className="category-header">
+          <h3><span className="category-icon">🎨</span> Design Projects</h3>
+          <p>Visual experiences that tell stories and captivate audiences</p>
         </div>
+        <div className="design-projects-grid">
+          <div className="design-project-card animated-paragraph" style={{ animationDelay: '1.4s' }}>
+            <div className="design-image brand-identity-bg"></div>
+            <div className="design-overlay">
+              <h4>Nebula Tech Branding</h4>
+              <p>Complete brand identity for a futuristic tech startup</p>
+              <div className="design-tags">
+                <span>Logo Design</span>
+                <span>Brand Guidelines</span>
+                <span>Typography</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="design-project-card animated-paragraph" style={{ animationDelay: '1.6s' }}>
+            <div className="design-image mobile-ui-bg"></div>
+            <div className="design-overlay">
+              <h4>Stellar Banking App</h4>
+              <p>Modern mobile banking interface with space-age aesthetics</p>
+              <div className="design-tags">
+                <span>UI/UX Design</span>
+                <span>Mobile App</span>
+                <span>Prototyping</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="design-project-card animated-paragraph" style={{ animationDelay: '1.8s' }}>
+            <div className="design-image poster-bg"></div>
+            <div className="design-overlay">
+              <h4>Cosmic Event Posters</h4>
+              <p>Eye-catching promotional materials for tech conferences</p>
+              <div className="design-tags">
+                <span>Print Design</span>
+                <span>Digital Art</span>
+                <span>Marketing</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="design-project-card animated-paragraph" style={{ animationDelay: '2.0s' }}>
+            <div className="design-image illustration-bg"></div>
+            <div className="design-overlay">
+              <h4>Space Explorer Icons</h4>
+              <p>Custom icon set for space exploration applications</p>
+              <div className="design-tags">
+                <span>Icon Design</span>
+                <span>Vector Art</span>
+                <span>UI Elements</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="design-project-card animated-paragraph" style={{ animationDelay: '2.2s' }}>
+            <div className="design-image web-design-bg"></div>
+            <div className="design-overlay">
+              <h4>Portfolio Redesigns</h4>
+              <p>Modern, responsive portfolio websites for creative professionals</p>
+              <div className="design-tags">
+                <span>Web Design</span>
+                <span>Responsive</span>
+                <span>User Experience</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="design-project-card animated-paragraph" style={{ animationDelay: '2.4s' }}>
+            <div className="design-image social-media-bg"></div>
+            <div className="design-overlay">
+              <h4>Social Media Campaign</h4>
+              <p>Cohesive visual campaign for product launches across platforms</p>
+              <div className="design-tags">
+                <span>Social Media</span>
+                <span>Campaign Design</span>
+                <span>Brand Consistency</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <div className="projects-cta animated-paragraph" style={{ animationDelay: '2.6s' }}>
+        <h3>Ready to Build Something <span className="neon">Extraordinary</span>?</h3>
+        <p>Let's collaborate and bring your vision to life with cutting-edge development and stunning design.</p>
+        <Link to="/contact" className="space-button pulse">Start Your Project</Link>
       </div>
     </div>
   </div>
