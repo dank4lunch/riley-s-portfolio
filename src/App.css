@@ -1703,9 +1703,13 @@ a {
     min-height: auto;
   }
 
-  .project-card.featured .project-image {
+  .project-card.featured .project-image-link {
     height: 200px;
     border-radius: 15px 15px 0 0;
+  }
+
+  .overlay-text {
+    font-size: 1rem;
   }
 
   .design-projects-grid {
