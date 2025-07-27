@@ -67,6 +67,119 @@ const Home = () => (
         </div>
       </section>
 
+      {/* Graphic Designer Section */}
+      <section className="designer-section animated-paragraph" style={{ animationDelay: '0.75s' }}>
+        <div className="designer-hero">
+          <div className="design-icon-container">
+            <div className="floating-design-elements">
+              <div className="design-element pencil"></div>
+              <div className="design-element palette"></div>
+              <div className="design-element monitor"></div>
+            </div>
+          </div>
+          <div className="designer-content">
+            <h2><span className="neon">Visual</span> Storyteller & Designer</h2>
+            <p className="designer-tagline">
+              Where code meets creativity. I don't just build interfaces—I craft visual experiences that tell stories,
+              evoke emotions, and guide users through digital journeys with purpose and elegance.
+            </p>
+          </div>
+        </div>
+
+        <div className="design-services">
+          <div className="service-card">
+            <div className="service-icon brand-icon"></div>
+            <h3>Brand Identity</h3>
+            <p>Creating cohesive visual identities that capture your brand's essence through logos, color schemes, typography, and comprehensive style guides.</p>
+            <ul className="service-highlights">
+              <li>Logo Design & Branding</li>
+              <li>Color Psychology</li>
+              <li>Typography Systems</li>
+              <li>Brand Guidelines</li>
+            </ul>
+          </div>
+
+          <div className="service-card">
+            <div className="service-icon ui-icon"></div>
+            <h3>UI/UX Design</h3>
+            <p>Designing intuitive, user-centered interfaces that seamlessly blend aesthetics with functionality for web and mobile applications.</p>
+            <ul className="service-highlights">
+              <li>User Research & Testing</li>
+              <li>Wireframing & Prototyping</li>
+              <li>Responsive Design</li>
+              <li>Accessibility Focus</li>
+            </ul>
+          </div>
+
+          <div className="service-card">
+            <div className="service-icon print-icon"></div>
+            <h3>Digital & Print</h3>
+            <p>From social media graphics to print materials, creating versatile designs that work across all mediums and platforms.</p>
+            <ul className="service-highlights">
+              <li>Social Media Graphics</li>
+              <li>Marketing Materials</li>
+              <li>Illustrations & Icons</li>
+              <li>Print Design</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="design-tools">
+          <h3>Design Arsenal</h3>
+          <div className="tools-grid">
+            <div className="tool-badge adobe">
+              <span className="tool-icon">🎨</span>
+              <span>Adobe Creative Suite</span>
+            </div>
+            <div className="tool-badge figma">
+              <span className="tool-icon">📐</span>
+              <span>Figma</span>
+            </div>
+            <div className="tool-badge sketch">
+              <span className="tool-icon">✏️</span>
+              <span>Sketch</span>
+            </div>
+            <div className="tool-badge blender">
+              <span className="tool-icon">🎮</span>
+              <span>Blender</span>
+            </div>
+            <div className="tool-badge canva">
+              <span className="tool-icon">🖼️</span>
+              <span>Canva Pro</span>
+            </div>
+            <div className="tool-badge procreate">
+              <span className="tool-icon">🖌️</span>
+              <span>Procreate</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="design-philosophy">
+          <div className="philosophy-content">
+            <h3>Design Philosophy</h3>
+            <blockquote>
+              "Design is not just what it looks like and feels like. Design is how it works. I believe in creating
+              experiences that are not only visually stunning but also functionally intuitive, accessible to all,
+              and strategically aligned with business goals."
+            </blockquote>
+            <div className="philosophy-points">
+              <div className="point">
+                <span className="point-icon">🎯</span>
+                <strong>Purpose-Driven:</strong> Every design decision serves a strategic purpose
+              </div>
+              <div className="point">
+                <span className="point-icon">♿</span>
+                <strong>Inclusive Design:</strong> Accessible and usable for everyone
+              </div>
+              <div className="point">
+                <span className="point-icon">⚡</span>
+                <strong>Performance-First:</strong> Beautiful designs that load fast and work smoothly
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Animated Stats */}
       <section className="stats-section animated-paragraph" style={{ animationDelay: '0.9s', display: 'flex', gap: '2rem', justifyContent: 'center', margin: '2rem 0' }}>
         <div className="stat-card">
