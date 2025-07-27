@@ -1479,6 +1479,16 @@ a {
               url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M30 40 L50 30 L70 40 L50 50 Z" fill="%23ffffff" opacity="0.6"/><path d="M45 35 L55 35 L55 45 L45 45 Z" fill="%23ffffff" opacity="0.4"/><circle cx="20" cy="20" r="2" fill="%23ffffff" opacity="0.8"/><circle cx="80" cy="25" r="1.5" fill="%23ffffff" opacity="0.7"/><circle cx="85" cy="70" r="2.5" fill="%23ffffff" opacity="0.6"/></svg>');
 }
 
+.gamma-bg {
+  background: linear-gradient(135deg, #ff6b35, #f7931e, #ffcc02),
+              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="80" height="50" fill="%23ffffff" opacity="0.3" x="10" y="25" rx="8"/><rect width="60" height="8" fill="%23ffffff" opacity="0.6" x="20" y="35" rx="4"/><rect width="50" height="6" fill="%23ffffff" opacity="0.5" x="20" y="48" rx="3"/><rect width="40" height="6" fill="%23ffffff" opacity="0.4" x="20" y="58" rx="3"/><circle cx="75" cy="40" r="3" fill="%23ffffff" opacity="0.7"/></svg>');
+}
+
+.motor-match-bg {
+  background: linear-gradient(135deg, #e74c3c, #c0392b, #34495e),
+              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><ellipse cx="50" cy="70" rx="35" ry="8" fill="%23ffffff" opacity="0.2"/><rect width="50" height="20" fill="%23ffffff" opacity="0.4" x="25" y="45" rx="10"/><rect width="40" height="15" fill="%23ffffff" opacity="0.3" x="30" y="30" rx="8"/><circle cx="35" cy="70" r="8" fill="%23ffffff" opacity="0.6"/><circle cx="65" cy="70" r="8" fill="%23ffffff" opacity="0.6"/><circle cx="35" cy="70" r="4" fill="%23000000" opacity="0.8"/><circle cx="65" cy="70" r="4" fill="%23000000" opacity="0.8"/></svg>');
+}
+
 /* Project Content */
 .project-content {
   padding: 2rem;
