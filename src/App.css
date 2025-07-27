@@ -196,9 +196,9 @@ body {
 /* Projects Page */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2.5rem;
-  margin-top: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
   padding: 0 1rem;
 }
 
@@ -207,7 +207,7 @@ body {
   border: 2px solid transparent;
   border-image: linear-gradient(45deg, var(--cosmic-purple), var(--neon-blue)) 1;
   border-radius: 15px;
-  padding: 2rem;
+  padding: 1.5rem;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   backdrop-filter: blur(10px);
   position: relative;
@@ -342,7 +342,7 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
   display: block;
-  margin: 2rem auto 0;
+  margin: 1rem auto 0;
 }
 
 .space-button:hover {
@@ -474,18 +474,19 @@ a {
   }
 
   .space-page {
-    padding: 2rem 0.5rem;
+    padding: 1rem 0.5rem;
   }
 
   .project-grid {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1rem;
     padding: 0;
+    margin-top: 1rem;
   }
 
   .glass-section {
-    padding: 1.5rem;
-    margin: 2rem 0.5rem;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
   }
 }
 
@@ -771,8 +772,8 @@ a {
 /* Improved About Section Layout */
 .about-content {
   display: flex;
-  gap: 4rem;
-  margin-top: 4rem;
+  gap: 2rem;
+  margin-top: 2rem;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
