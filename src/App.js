@@ -327,6 +327,60 @@ const Projects = () => (
               </a>
             </div>
           </div>
+
+          <div className="project-card animated-paragraph" style={{ animationDelay: '1.2s' }}>
+            <div className="project-image gamma-bg"></div>
+            <div className="project-content">
+              <div className="project-tags">
+                <span className="tag ai">AI-Powered</span>
+                <span className="tag presentation">Presentations</span>
+              </div>
+              <h4>Gamma</h4>
+              <p>
+                Revolutionary AI-powered presentation platform that transforms ideas into beautiful, interactive presentations with minimal effort. Create stunning decks in minutes, not hours.
+              </p>
+              <div className="project-tech">
+                <span>AI/ML</span>
+                <span>Web App</span>
+                <span>Design Automation</span>
+              </div>
+              <a
+                href="https://gamma.app"
+                className="space-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Explore Gamma
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card animated-paragraph" style={{ animationDelay: '1.4s' }}>
+            <div className="project-image motor-match-bg"></div>
+            <div className="project-content">
+              <div className="project-tags">
+                <span className="tag automotive">Automotive</span>
+                <span className="tag simulation">Simulation</span>
+              </div>
+              <h4>Motor Match Simulation</h4>
+              <p>
+                Advanced automotive matching and simulation platform that helps users find their perfect vehicle through interactive simulations and comprehensive comparisons.
+              </p>
+              <div className="project-tech">
+                <span>Interactive Simulation</span>
+                <span>Data Analytics</span>
+                <span>3D Visualization</span>
+              </div>
+              <a
+                href="https://motormatchup.com/simulation"
+                className="space-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Try Simulation
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
