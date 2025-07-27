@@ -158,13 +158,13 @@ body {
 .space-page {
   position: relative;
   min-height: calc(100vh - 80px);
-  padding: 3rem 1rem;
+  padding: 1rem;
 }
 
 .content {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   position: relative;
   z-index: 1;
 }
@@ -408,16 +408,16 @@ body {
 .glass-section {
   background: rgba(255, 255, 255, 0.1);
   border: 2px solid rgba(255, 255, 255, 0.2);
-  padding: 2.5rem;
+  padding: 1.5rem;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
   color: #fff;
   font-family: 'Orbitron', sans-serif;
   box-shadow: 0 8px 32px rgba(255, 255, 255, 0.1);
-  margin: 3rem auto;
+  margin: 1.5rem auto;
   width: 100%;
   max-width: 900px;
   backdrop-filter: blur(15px);
@@ -551,13 +551,13 @@ a {
 /* Enhanced Hero Section */
 .hero-section {
   text-align: center;
-  padding: 4rem 2rem;
+  padding: 2rem 1rem;
   position: relative;
 }
 
 .hero-section h1 {
-  font-size: 3.5rem;
-  margin: 1rem 0;
+  font-size: 3rem;
+  margin: 0.5rem 0;
   background: var(--gradient-cosmic);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -575,16 +575,16 @@ a {
   font-size: 1.1rem;
   opacity: 0.9;
   max-width: 600px;
-  margin: 0 auto 2rem auto;
-  line-height: 1.8;
+  margin: 0 auto 1rem auto;
+  line-height: 1.6;
 }
 
 /* Enhanced Stats Section */
 .stats-section {
   display: flex;
   justify-content: center;
-  gap: 3rem;
-  margin: 4rem 0;
+  gap: 2rem;
+  margin: 2rem 0;
   flex-wrap: wrap;
 }
 
@@ -593,9 +593,9 @@ a {
   border: 2px solid transparent;
   border-image: var(--gradient-cosmic) 1;
   border-radius: 15px;
-  padding: 2rem;
+  padding: 1.5rem;
   text-align: center;
-  min-width: 150px;
+  min-width: 120px;
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
   position: relative;
@@ -640,10 +640,10 @@ a {
 /* Enhanced CTA Section */
 .cta-section {
   text-align: center;
-  padding: 4rem 2rem;
+  padding: 2rem 1rem;
   background: rgba(18, 26, 42, 0.3);
   border-radius: 20px;
-  margin: 3rem 0;
+  margin: 1.5rem 0;
   backdrop-filter: blur(10px);
 }
 
@@ -659,8 +659,8 @@ a {
 /* Enhanced Now Playing Container */
 .now-playing-container {
   text-align: center;
-  margin: 3rem 0;
-  padding: 2rem;
+  margin: 1.5rem 0;
+  padding: 1.5rem;
   background: rgba(18, 26, 42, 0.5);
   border-radius: 15px;
   backdrop-filter: blur(10px);
