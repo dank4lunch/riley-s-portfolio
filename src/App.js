@@ -201,7 +201,7 @@ const Projects = () => (
     <div className="twinkling"></div>
     <div className="shooting-stars"></div>
     <div className="content">
-      <div className="projects-hero animated-paragraph" style={{ animationDelay: '0s' }}>
+      <div className="projects-hero animated-paragraph animation-delay-0">
         <h2>My <span className="neon">Digital</span> Universe</h2>
         <p className="projects-subtitle">
           Exploring the intersection of code, design, and creativity across multiple dimensions
@@ -209,13 +209,13 @@ const Projects = () => (
       </div>
 
       {/* Development Projects */}
-      <section className="project-category animated-paragraph" style={{ animationDelay: '0.2s' }}>
+      <section className="project-category animated-paragraph animation-delay-2">
         <div className="category-header">
           <h3><span className="category-icon">💻</span> Development Projects</h3>
           <p>Full-stack applications and tools that solve real-world problems</p>
         </div>
         <div className="project-grid">
-          <div className="project-card featured animated-paragraph" style={{ animationDelay: '0.4s' }}>
+          <div className="project-card featured animated-paragraph animation-delay-4">
             <a
               href="https://oskarstalberg.com/Townscaper"
               className="project-image-link"
@@ -257,7 +257,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="project-card animated-paragraph" style={{ animationDelay: '0.6s' }}>
+          <div className="project-card animated-paragraph animation-delay-6">
             <a
               href="https://flowith.io/blank"
               className="project-image-link"
@@ -299,7 +299,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="project-card animated-paragraph" style={{ animationDelay: '0.8s' }}>
+          <div className="project-card animated-paragraph animation-delay-8">
             <Link
               to="/task-manager"
               className="project-image-link"
@@ -331,7 +331,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="project-card animated-paragraph" style={{ animationDelay: '1.0s' }}>
+          <div className="project-card animated-paragraph animation-delay-10">
             <a
               href="https://geo-fs.com/"
               className="project-image-link"
@@ -372,7 +372,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="project-card animated-paragraph" style={{ animationDelay: '1.2s' }}>
+          <div className="project-card animated-paragraph animation-delay-12">
             <a
               href="https://gamma.app"
               className="project-image-link"
@@ -413,7 +413,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="project-card animated-paragraph" style={{ animationDelay: '1.4s' }}>
+          <div className="project-card animated-paragraph animation-delay-14">
             <a
               href="https://motormatchup.com/simulation"
               className="project-image-link"
@@ -457,7 +457,7 @@ const Projects = () => (
       </section>
 
       {/* Design Projects */}
-      <section className="project-category animated-paragraph" style={{ animationDelay: '1.2s' }}>
+      <section className="project-category animated-paragraph animation-delay-12">
         <div className="category-header">
           <h3><span className="category-icon">🎨</span> Design Projects</h3>
           <p>Visual experiences that tell stories and captivate audiences</p>
@@ -544,7 +544,7 @@ const Projects = () => (
       </section>
 
       {/* Call to Action */}
-      <div className="projects-cta animated-paragraph" style={{ animationDelay: '2.6s' }}>
+      <div className="projects-cta animated-paragraph animation-delay-26">
         <h3>Ready to Build Something <span className="neon">Extraordinary</span>?</h3>
         <p>Let's collaborate and bring your vision to life with cutting-edge development and stunning design.</p>
         <Link to="/contact" className="space-button pulse">Start Your Project</Link>
