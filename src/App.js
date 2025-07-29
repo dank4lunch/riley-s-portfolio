@@ -567,43 +567,262 @@ const About = () => (
   <div className="space-page fade-in">
     <div className="stars"></div>
     <div className="twinkling"></div>
+    <div className="shooting-stars"></div>
     <div className="content">
-      <h2 className="animated-paragraph" style={{ animationDelay: '0s' }}>
-        About the <span className="neon">Cosmic</span> Developer
-      </h2>
-      <div className="about-content animated-paragraph" style={{ animationDelay: '0.2s' }}>
-        <div className="spaceship" aria-label="Flying spaceship"></div>
-        <div className="bio">
-          <p>
-            I'm an intergalactic web developer traveling through the digital universe,
-            creating stellar websites and applications.
-          </p>
-          <div className="Languages">
-            <h3>Languages</h3>
-            <ul>
-              <li>Python</li>
-              <li>JavaScript</li>
-              <li>CSS</li>
-              <li>HTML</li>
-              <li>C#</li>
-            </ul>
+      {/* Hero Section */}
+      <div className="about-hero animated-paragraph" style={{ animationDelay: '0s' }}>
+        <h2>Meet <span className="neon">Thabiso Mtenjane</span></h2>
+        <p className="about-subtitle">System Developer & Digital Innovator</p>
+        <div className="contact-info">
+          <span>📍 Germiston, South Africa</span>
+          <span>📞 069 106 3144</span>
+          <span>📧 dank4lunch@gmail.com</span>
+        </div>
+      </div>
+
+      {/* Professional Summary */}
+      <section className="glass-section animated-paragraph" style={{ animationDelay: '0.2s' }}>
+        <h3><span className="section-icon">🚀</span> Professional Summary</h3>
+        <p>
+          Motivated and detail-oriented Information Technology student with a strong foundation in system development,
+          software engineering, cybersecurity, and front-end web design. Experienced in both academic and practical
+          environments through internships and development programs. Recently completed the Accenture Nordics Digital
+          Skills Program, Explore Accelerator (EA), and currently contributing to live development projects as an intern
+          at The Forge. Skilled at identifying technical issues, implementing solutions, and collaborating within agile teams.
+        </p>
+      </section>
+
+      {/* Technical Skills */}
+      <section className="skills-showcase animated-paragraph" style={{ animationDelay: '0.4s' }}>
+        <h3><span className="section-icon">💻</span> Technical Expertise</h3>
+
+        <div className="skills-grid">
+          <div className="skill-category">
+            <h4>Programming Languages</h4>
+            <div className="skill-tags">
+              <span className="skill-tag">HTML</span>
+              <span className="skill-tag">CSS</span>
+              <span className="skill-tag">JavaScript</span>
+              <span className="skill-tag">Python</span>
+              <span className="skill-tag">SQL</span>
+            </div>
           </div>
-          <div className="Frameworks">
-            <h3>Frameworks</h3>
-            <ul>
-              <li>React</li>
-              <li>Node.js</li>
-            </ul>
+
+          <div className="skill-category">
+            <h4>Web Development</h4>
+            <div className="skill-tags">
+              <span className="skill-tag">WordPress</span>
+              <span className="skill-tag">Elementor</span>
+              <span className="skill-tag">Responsive Design</span>
+              <span className="skill-tag">Custom Scripting</span>
+            </div>
           </div>
-          <div className="Toolss">
-            <h3>Tools</h3>
-            <ul>
-              <li>Git</li>
-              <li>WordPress</li>
-              <li>VS Code</li>
-            </ul>
+
+          <div className="skill-category">
+            <h4>Software & Tools</h4>
+            <div className="skill-tags">
+              <span className="skill-tag">Git</span>
+              <span className="skill-tag">GitHub</span>
+              <span className="skill-tag">VS Code</span>
+              <span className="skill-tag">MS Office</span>
+              <span className="skill-tag">Canva</span>
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h4>Database Management</h4>
+            <div className="skill-tags">
+              <span className="skill-tag">MySQL</span>
+              <span className="skill-tag">Microsoft Access</span>
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h4>Systems Development</h4>
+            <div className="skill-tags">
+              <span className="skill-tag">UML Diagrams</span>
+              <span className="skill-tag">Flowcharts</span>
+              <span className="skill-tag">Pseudocode</span>
+              <span className="skill-tag">SDLC</span>
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h4>Cybersecurity</h4>
+            <div className="skill-tags">
+              <span className="skill-tag">IBM Cybersecurity</span>
+              <span className="skill-tag">SkillsBuild</span>
+            </div>
           </div>
         </div>
+      </section>
+
+      {/* Experience */}
+      <section className="experience-section animated-paragraph" style={{ animationDelay: '0.6s' }}>
+        <h3><span className="section-icon">💼</span> Professional Experience</h3>
+
+        <div className="experience-card">
+          <div className="experience-header">
+            <h4>System Development Intern</h4>
+            <div className="company-period">
+              <span className="company">The Forge</span>
+              <span className="period">May 2025 - Present</span>
+            </div>
+          </div>
+          <ul className="experience-details">
+            <li>Participated in the development and maintenance of internal web-based systems</li>
+            <li>Wrote and tested clean, efficient code in collaborative sprints</li>
+            <li>Identified bugs and provided efficient troubleshooting across platforms</li>
+            <li>Attended Agile meetings and contributed to sprint planning sessions</li>
+            <li>Gained insight into real-world IT project lifecycles and development pipelines</li>
+          </ul>
+        </div>
+
+        <div className="experience-card">
+          <div className="experience-header">
+            <h4>Web Development Project</h4>
+            <div className="company-period">
+              <span className="company">College Website</span>
+              <span className="period">Academic Project</span>
+            </div>
+          </div>
+          <ul className="experience-details">
+            <li>Led the creation of a fully responsive college website using WordPress and Elementor</li>
+            <li>Applied custom HTML, CSS, and JavaScript to enhance site interactivity</li>
+            <li>Focused on accessibility, responsiveness, and clean UI/UX design</li>
+            <li>Integrated contact forms, analytics tools, and dynamic content components</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Education & Certifications */}
+      <section className="education-section animated-paragraph" style={{ animationDelay: '0.8s' }}>
+        <h3><span className="section-icon">🎓</span> Education & Certifications</h3>
+
+        <div className="education-grid">
+          <div className="education-card">
+            <h4>N4 Information Technology</h4>
+            <p className="institution">Ekurhuleni City College, South Africa</p>
+            <p className="period">Expected Completion: October 2025</p>
+            <div className="modules">
+              <h5>Relevant Modules:</h5>
+              <ul>
+                <li>Systems Analysis and Design</li>
+                <li>Introduction to Programming</li>
+                <li>Information Systems</li>
+                <li>System Engineering</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="certifications-card">
+            <h4>Certifications & Programs</h4>
+            <div className="cert-list">
+              <div className="cert-item">
+                <span className="cert-name">Accenture Nordics Digital Skills Program</span>
+                <span className="cert-status completed">Completed</span>
+              </div>
+              <div className="cert-item">
+                <span className="cert-name">Explore Accelerator (EA) Program</span>
+                <span className="cert-status completed">Completed</span>
+              </div>
+              <div className="cert-item">
+                <span className="cert-name">IBM SkillsBuild</span>
+                <span className="cert-status completed">Completed</span>
+              </div>
+              <div className="cert-courses">
+                <h5>Specialized Courses:</h5>
+                <ul>
+                  <li>Cybersecurity Fundamentals</li>
+                  <li>Software Development</li>
+                  <li>Business Literacy</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Projects & Achievements */}
+      <section className="achievements-section animated-paragraph" style={{ animationDelay: '1.0s' }}>
+        <h3><span className="section-icon">🏆</span> Projects & Highlights</h3>
+
+        <div className="achievements-grid">
+          <div className="achievement-card">
+            <div className="achievement-icon">🚀</div>
+            <h4>Front-End Projects</h4>
+            <p>Developed multiple front-end projects including landing pages, forms, and dashboards with modern design principles</p>
+          </div>
+
+          <div className="achievement-card">
+            <div className="achievement-icon">📜</div>
+            <h4>10+ Certifications</h4>
+            <p>Completed extensive online training in cybersecurity, business literacy, and programming technologies</p>
+          </div>
+
+          <div className="achievement-card">
+            <div className="achievement-icon">👥</div>
+            <h4>Team Collaboration</h4>
+            <p>Contributed to The Forge Internships dev team on real-world projects with agile methodologies</p>
+          </div>
+
+          <div className="achievement-card">
+            <div className="achievement-icon">📊</div>
+            <h4>Technical Documentation</h4>
+            <p>Created comprehensive documentation, diagrams, and flowcharts for complex system workflows</p>
+          </div>
+
+          <div className="achievement-card">
+            <div className="achievement-icon">⚡</div>
+            <h4>Task Tracker App</h4>
+            <p>Built a functional task tracker web application using JavaScript for personal productivity enhancement</p>
+          </div>
+
+          <div className="achievement-card">
+            <div className="achievement-icon">🎯</div>
+            <h4>Problem Solving</h4>
+            <p>Demonstrated excellence in critical thinking, adaptability, and innovative solution development</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Soft Skills */}
+      <section className="soft-skills-section animated-paragraph" style={{ animationDelay: '1.2s' }}>
+        <h3><span className="section-icon">🌟</span> Core Competencies</h3>
+
+        <div className="soft-skills-grid">
+          <div className="soft-skill">
+            <span className="skill-emoji">💬</span>
+            <span>Communication</span>
+          </div>
+          <div className="soft-skill">
+            <span className="skill-emoji">🧠</span>
+            <span>Critical Thinking</span>
+          </div>
+          <div className="soft-skill">
+            <span className="skill-emoji">🔄</span>
+            <span>Adaptability</span>
+          </div>
+          <div className="soft-skill">
+            <span className="skill-emoji">👥</span>
+            <span>Team Collaboration</span>
+          </div>
+          <div className="soft-skill">
+            <span className="skill-emoji">💰</span>
+            <span>Budgeting</span>
+          </div>
+          <div className="soft-skill">
+            <span className="skill-emoji">📊</span>
+            <span>Business Calculations</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <div className="about-cta animated-paragraph" style={{ animationDelay: '1.4s' }}>
+        <h3>Ready to <span className="neon">Collaborate</span>?</h3>
+        <p>Let's connect and explore how we can create innovative solutions together!</p>
+        <Link to="/contact" className="space-button pulse">Get In Touch</Link>
       </div>
     </div>
   </div>
