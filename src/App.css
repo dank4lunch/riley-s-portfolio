@@ -2121,6 +2121,8 @@ a {
   color: var(--neon-blue);
   font-size: 2rem;
   margin-bottom: 2rem;
+  line-height: 1.2;
+  padding-bottom: 1rem;
 }
 
 .soft-skills-grid {
