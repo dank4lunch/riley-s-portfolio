@@ -560,7 +560,7 @@ const About = () => (
     <div className="shooting-stars"></div>
     <div className="content">
       {/* Hero Section */}
-      <div className="about-hero animated-paragraph" style={{ animationDelay: '0s' }}>
+      <div className="about-hero animated-paragraph animation-delay-0">
         <h2>Meet <span className="neon">Thabiso Mtenjane</span></h2>
         <p className="about-subtitle">System Developer & Digital Innovator</p>
         <div className="contact-info">
@@ -571,7 +571,7 @@ const About = () => (
       </div>
 
       {/* Professional Summary */}
-      <section className="glass-section animated-paragraph" style={{ animationDelay: '0.2s' }}>
+      <section className="glass-section animated-paragraph animation-delay-2">
         <h3><span className="section-icon">🚀</span> Professional Summary</h3>
         <p>
           Motivated and detail-oriented Information Technology student with a strong foundation in system development,
@@ -583,7 +583,7 @@ const About = () => (
       </section>
 
       {/* Technical Skills */}
-      <section className="skills-showcase animated-paragraph" style={{ animationDelay: '0.4s' }}>
+      <section className="skills-showcase animated-paragraph animation-delay-4">
         <h3><span className="section-icon">💻</span> Technical Expertise</h3>
 
         <div className="skills-grid">
@@ -648,7 +648,7 @@ const About = () => (
       </section>
 
       {/* Experience */}
-      <section className="experience-section animated-paragraph" style={{ animationDelay: '0.6s' }}>
+      <section className="experience-section animated-paragraph animation-delay-6">
         <h3><span className="section-icon">💼</span> Professional Experience</h3>
 
         <div className="experience-card">
@@ -686,7 +686,7 @@ const About = () => (
       </section>
 
       {/* Education & Certifications */}
-      <section className="education-section animated-paragraph" style={{ animationDelay: '0.8s' }}>
+      <section className="education-section animated-paragraph animation-delay-8">
         <h3><span className="section-icon">🎓</span> Education & Certifications</h3>
 
         <div className="education-grid">
@@ -734,7 +734,7 @@ const About = () => (
       </section>
 
       {/* Projects & Achievements */}
-      <section className="achievements-section animated-paragraph" style={{ animationDelay: '1.0s' }}>
+      <section className="achievements-section animated-paragraph animation-delay-10">
         <h3><span className="section-icon">🏆</span> Projects & Highlights</h3>
 
         <div className="achievements-grid">
@@ -777,7 +777,7 @@ const About = () => (
       </section>
 
       {/* Soft Skills */}
-      <section className="soft-skills-section animated-paragraph" style={{ animationDelay: '1.2s' }}>
+      <section className="soft-skills-section animated-paragraph animation-delay-12">
         <h3><span className="section-icon">🌟</span> Core Competencies</h3>
 
         <div className="soft-skills-grid">
@@ -801,7 +801,7 @@ const About = () => (
       </section>
 
       {/* Call to Action */}
-      <div className="about-cta animated-paragraph" style={{ animationDelay: '1.4s' }}>
+      <div className="about-cta animated-paragraph animation-delay-14">
         <h3>Ready to <span className="neon">Collaborate</span>?</h3>
         <p>Let's connect and explore how we can create innovative solutions together!</p>
         <Link to="/contact" className="space-button pulse">Get In Touch</Link>
@@ -829,10 +829,10 @@ const Contact = () => {
       <div className="stars"></div>
       <div className="twinkling"></div>
       <div className="content">
-        <h2 className="animated-paragraph" style={{ animationDelay: '0s' }}>
+        <h2 className="animated-paragraph animation-delay-0">
           Transmit <span className="neon">Message</span>
         </h2>
-        <form className="space-form animated-paragraph" style={{ animationDelay: '0.2s' }} onSubmit={handleSubmit}>
+        <form className="space-form animated-paragraph animation-delay-2" onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Your Name</label>
             <input type="text" id="name" placeholder="Enter your name" value={form.name} onChange={handleChange} required />
