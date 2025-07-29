@@ -14,21 +14,11 @@ const Home = () => (
     <div className="shooting-stars"></div>
     <div className="content">
       {/* Hero Section */}
-      <section className="hero-section animated-paragraph" style={{ animationDelay: '0s' }}>
+      <section className="hero-section animated-paragraph animation-delay-0">
         <img
-          src={require('./assets/IMG_5604_LE_upscale_balanced_x4.jpg')}
+          src="https://cdn.builder.io/api/v1/image/assets%2F7f3c1ec1e84040bdb36d1376cf54246e%2F5620ab671f56458d83857c843479347f?format=webp&width=200"
           alt="Profile"
           className="profile-avatar"
-          style={{
-            width: 120,
-            height: 120,
-            borderRadius: "50%",
-            border: "3px solid #00ffee",
-            marginBottom: "1rem",
-            boxShadow: "0 0 30px #00ffee55",
-            objectFit: "cover",
-            background: "#fff"
-          }}
         />
         <h1>
           Hi, I'm <span className="neon">Thabiso</span>
@@ -37,13 +27,13 @@ const Home = () => (
         <p className="tagline">
           I create digital solutions that are robust, scalable, and visually stunning.
         </p>
-        <a href="#projects" className="space-button pulse" style={{ marginTop: "1.5rem" }}>
+        <a href="#projects" className="space-button pulse margin-top-1-5">
           View My Work
         </a>
       </section>
 
       {/* Animated Now Playing */}
-      <div className="now-playing-container animated-paragraph" style={{ animationDelay: '0.3s' }}>
+      <div className="now-playing-container animated-paragraph animation-delay-3">
         <h3>
           <span role="img" aria-label="music">🎵</span> Now Playing
         </h3>
@@ -51,7 +41,7 @@ const Home = () => (
       </div>
 
       {/* About Section */}
-      <section className="glass-section animated-paragraph" id="about" style={{ animationDelay: '0.6s' }}>
+      <section className="glass-section animated-paragraph animation-delay-6" id="about">
         <h2>About Me</h2>
         <p>
           I'm a passionate developer who thrives on turning ideas into reality. Every project is a new adventure—solving problems, learning new tech, and building tools that make a difference. Whether it's a sleek web interface or a powerful backend, I bring creativity and precision to every line of code.
@@ -68,7 +58,7 @@ const Home = () => (
       </section>
 
       {/* Graphic Designer Section */}
-      <section className="designer-section animated-paragraph" style={{ animationDelay: '0.75s' }}>
+      <section className="designer-section animated-paragraph animation-delay-75">
         <div className="designer-hero">
           <div className="design-icon-container">
             <div className="floating-design-elements">
@@ -181,7 +171,7 @@ const Home = () => (
       </section>
 
       {/* Animated Stats */}
-      <section className="stats-section animated-paragraph" style={{ animationDelay: '0.9s', display: 'flex', gap: '2rem', justifyContent: 'center', margin: '2rem 0' }}>
+      <section className="stats-section animated-paragraph animation-delay-9">
         <div className="stat-card">
           <h3>10+</h3>
           <p>Projects Completed</p>
@@ -197,7 +187,7 @@ const Home = () => (
       </section>
 
       {/* Call to Action */}
-      <section className="cta-section animated-paragraph" style={{ animationDelay: '1.2s', textAlign: 'center' }}>
+      <section className="cta-section animated-paragraph animation-delay-12">
         <h2>Let's Build Something Amazing</h2>
         <a href="#contact" className="space-button pulse">Contact Me</a>
       </section>
@@ -211,7 +201,7 @@ const Projects = () => (
     <div className="twinkling"></div>
     <div className="shooting-stars"></div>
     <div className="content">
-      <div className="projects-hero animated-paragraph" style={{ animationDelay: '0s' }}>
+      <div className="projects-hero animated-paragraph animation-delay-0">
         <h2>My <span className="neon">Digital</span> Universe</h2>
         <p className="projects-subtitle">
           Exploring the intersection of code, design, and creativity across multiple dimensions
@@ -219,13 +209,13 @@ const Projects = () => (
       </div>
 
       {/* Development Projects */}
-      <section className="project-category animated-paragraph" style={{ animationDelay: '0.2s' }}>
+      <section className="project-category animated-paragraph animation-delay-2">
         <div className="category-header">
           <h3><span className="category-icon">💻</span> Development Projects</h3>
           <p>Full-stack applications and tools that solve real-world problems</p>
         </div>
         <div className="project-grid">
-          <div className="project-card featured animated-paragraph" style={{ animationDelay: '0.4s' }}>
+          <div className="project-card featured animated-paragraph animation-delay-4">
             <a
               href="https://oskarstalberg.com/Townscaper"
               className="project-image-link"
@@ -267,7 +257,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="project-card animated-paragraph" style={{ animationDelay: '0.6s' }}>
+          <div className="project-card animated-paragraph animation-delay-6">
             <a
               href="https://flowith.io/blank"
               className="project-image-link"
@@ -309,7 +299,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="project-card animated-paragraph" style={{ animationDelay: '0.8s' }}>
+          <div className="project-card animated-paragraph animation-delay-8">
             <Link
               to="/task-manager"
               className="project-image-link"
@@ -341,7 +331,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="project-card animated-paragraph" style={{ animationDelay: '1.0s' }}>
+          <div className="project-card animated-paragraph animation-delay-10">
             <a
               href="https://geo-fs.com/"
               className="project-image-link"
@@ -382,7 +372,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="project-card animated-paragraph" style={{ animationDelay: '1.2s' }}>
+          <div className="project-card animated-paragraph animation-delay-12">
             <a
               href="https://gamma.app"
               className="project-image-link"
@@ -423,7 +413,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="project-card animated-paragraph" style={{ animationDelay: '1.4s' }}>
+          <div className="project-card animated-paragraph animation-delay-14">
             <a
               href="https://motormatchup.com/simulation"
               className="project-image-link"
@@ -467,13 +457,13 @@ const Projects = () => (
       </section>
 
       {/* Design Projects */}
-      <section className="project-category animated-paragraph" style={{ animationDelay: '1.2s' }}>
+      <section className="project-category animated-paragraph animation-delay-12">
         <div className="category-header">
           <h3><span className="category-icon">🎨</span> Design Projects</h3>
           <p>Visual experiences that tell stories and captivate audiences</p>
         </div>
         <div className="design-projects-grid">
-          <div className="design-project-card animated-paragraph" style={{ animationDelay: '1.4s' }}>
+          <div className="design-project-card animated-paragraph animation-delay-14">
             <div className="design-image brand-identity-bg"></div>
             <div className="design-overlay">
               <h4>Nebula Tech Branding</h4>
@@ -486,7 +476,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="design-project-card animated-paragraph" style={{ animationDelay: '1.6s' }}>
+          <div className="design-project-card animated-paragraph animation-delay-16">
             <div className="design-image mobile-ui-bg"></div>
             <div className="design-overlay">
               <h4>Stellar Banking App</h4>
@@ -499,7 +489,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="design-project-card animated-paragraph" style={{ animationDelay: '1.8s' }}>
+          <div className="design-project-card animated-paragraph animation-delay-18">
             <div className="design-image poster-bg"></div>
             <div className="design-overlay">
               <h4>Cosmic Event Posters</h4>
@@ -512,7 +502,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="design-project-card animated-paragraph" style={{ animationDelay: '2.0s' }}>
+          <div className="design-project-card animated-paragraph animation-delay-20">
             <div className="design-image illustration-bg"></div>
             <div className="design-overlay">
               <h4>Space Explorer Icons</h4>
@@ -525,7 +515,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="design-project-card animated-paragraph" style={{ animationDelay: '2.2s' }}>
+          <div className="design-project-card animated-paragraph animation-delay-22">
             <div className="design-image web-design-bg"></div>
             <div className="design-overlay">
               <h4>Portfolio Redesigns</h4>
@@ -538,7 +528,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="design-project-card animated-paragraph" style={{ animationDelay: '2.4s' }}>
+          <div className="design-project-card animated-paragraph animation-delay-24">
             <div className="design-image social-media-bg"></div>
             <div className="design-overlay">
               <h4>Social Media Campaign</h4>
@@ -554,7 +544,7 @@ const Projects = () => (
       </section>
 
       {/* Call to Action */}
-      <div className="projects-cta animated-paragraph" style={{ animationDelay: '2.6s' }}>
+      <div className="projects-cta animated-paragraph animation-delay-26">
         <h3>Ready to Build Something <span className="neon">Extraordinary</span>?</h3>
         <p>Let's collaborate and bring your vision to life with cutting-edge development and stunning design.</p>
         <Link to="/contact" className="space-button pulse">Start Your Project</Link>
@@ -570,7 +560,7 @@ const About = () => (
     <div className="shooting-stars"></div>
     <div className="content">
       {/* Hero Section */}
-      <div className="about-hero animated-paragraph" style={{ animationDelay: '0s' }}>
+      <div className="about-hero animated-paragraph animation-delay-0">
         <h2>Meet <span className="neon">Thabiso Mtenjane</span></h2>
         <p className="about-subtitle">System Developer & Digital Innovator</p>
         <div className="contact-info">
@@ -581,7 +571,7 @@ const About = () => (
       </div>
 
       {/* Professional Summary */}
-      <section className="glass-section animated-paragraph" style={{ animationDelay: '0.2s' }}>
+      <section className="glass-section animated-paragraph animation-delay-2">
         <h3><span className="section-icon">🚀</span> Professional Summary</h3>
         <p>
           Motivated and detail-oriented Information Technology student with a strong foundation in system development,
@@ -593,7 +583,7 @@ const About = () => (
       </section>
 
       {/* Technical Skills */}
-      <section className="skills-showcase animated-paragraph" style={{ animationDelay: '0.4s' }}>
+      <section className="skills-showcase animated-paragraph animation-delay-4">
         <h3><span className="section-icon">💻</span> Technical Expertise</h3>
 
         <div className="skills-grid">
@@ -658,7 +648,7 @@ const About = () => (
       </section>
 
       {/* Experience */}
-      <section className="experience-section animated-paragraph" style={{ animationDelay: '0.6s' }}>
+      <section className="experience-section animated-paragraph animation-delay-6">
         <h3><span className="section-icon">💼</span> Professional Experience</h3>
 
         <div className="experience-card">
@@ -696,7 +686,7 @@ const About = () => (
       </section>
 
       {/* Education & Certifications */}
-      <section className="education-section animated-paragraph" style={{ animationDelay: '0.8s' }}>
+      <section className="education-section animated-paragraph animation-delay-8">
         <h3><span className="section-icon">🎓</span> Education & Certifications</h3>
 
         <div className="education-grid">
@@ -744,7 +734,7 @@ const About = () => (
       </section>
 
       {/* Projects & Achievements */}
-      <section className="achievements-section animated-paragraph" style={{ animationDelay: '1.0s' }}>
+      <section className="achievements-section animated-paragraph animation-delay-10">
         <h3><span className="section-icon">🏆</span> Projects & Highlights</h3>
 
         <div className="achievements-grid">
@@ -787,7 +777,7 @@ const About = () => (
       </section>
 
       {/* Soft Skills */}
-      <section className="soft-skills-section animated-paragraph" style={{ animationDelay: '1.2s' }}>
+      <section className="soft-skills-section animated-paragraph animation-delay-12">
         <h3><span className="section-icon">🌟</span> Core Competencies</h3>
 
         <div className="soft-skills-grid">
@@ -811,7 +801,7 @@ const About = () => (
       </section>
 
       {/* Call to Action */}
-      <div className="about-cta animated-paragraph" style={{ animationDelay: '1.4s' }}>
+      <div className="about-cta animated-paragraph animation-delay-14">
         <h3>Ready to <span className="neon">Collaborate</span>?</h3>
         <p>Let's connect and explore how we can create innovative solutions together!</p>
         <Link to="/contact" className="space-button pulse">Get In Touch</Link>
@@ -839,10 +829,10 @@ const Contact = () => {
       <div className="stars"></div>
       <div className="twinkling"></div>
       <div className="content">
-        <h2 className="animated-paragraph" style={{ animationDelay: '0s' }}>
+        <h2 className="animated-paragraph animation-delay-0">
           Transmit <span className="neon">Message</span>
         </h2>
-        <form className="space-form animated-paragraph" style={{ animationDelay: '0.2s' }} onSubmit={handleSubmit}>
+        <form className="space-form animated-paragraph animation-delay-2" onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Your Name</label>
             <input type="text" id="name" placeholder="Enter your name" value={form.name} onChange={handleChange} required />
