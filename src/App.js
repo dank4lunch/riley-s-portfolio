@@ -807,14 +807,6 @@ const About = () => (
             <span className="skill-emoji">👥</span>
             <span>Team Collaboration</span>
           </div>
-          <div className="soft-skill">
-            <span className="skill-emoji">💰</span>
-            <span>Budgeting</span>
-          </div>
-          <div className="soft-skill">
-            <span className="skill-emoji">📊</span>
-            <span>Business Calculations</span>
-          </div>
         </div>
       </section>
 
