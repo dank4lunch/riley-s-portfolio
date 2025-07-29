@@ -1754,6 +1754,8 @@ a {
   text-align: center;
   padding: 2rem 0 3rem 0;
   margin-bottom: 2rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .about-hero h2 {
