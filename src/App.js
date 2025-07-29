@@ -463,7 +463,7 @@ const Projects = () => (
           <p>Visual experiences that tell stories and captivate audiences</p>
         </div>
         <div className="design-projects-grid">
-          <div className="design-project-card animated-paragraph" style={{ animationDelay: '1.4s' }}>
+          <div className="design-project-card animated-paragraph animation-delay-14">
             <div className="design-image brand-identity-bg"></div>
             <div className="design-overlay">
               <h4>Nebula Tech Branding</h4>
@@ -476,7 +476,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="design-project-card animated-paragraph" style={{ animationDelay: '1.6s' }}>
+          <div className="design-project-card animated-paragraph animation-delay-16">
             <div className="design-image mobile-ui-bg"></div>
             <div className="design-overlay">
               <h4>Stellar Banking App</h4>
@@ -489,7 +489,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="design-project-card animated-paragraph" style={{ animationDelay: '1.8s' }}>
+          <div className="design-project-card animated-paragraph animation-delay-18">
             <div className="design-image poster-bg"></div>
             <div className="design-overlay">
               <h4>Cosmic Event Posters</h4>
@@ -502,7 +502,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="design-project-card animated-paragraph" style={{ animationDelay: '2.0s' }}>
+          <div className="design-project-card animated-paragraph animation-delay-20">
             <div className="design-image illustration-bg"></div>
             <div className="design-overlay">
               <h4>Space Explorer Icons</h4>
@@ -515,7 +515,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="design-project-card animated-paragraph" style={{ animationDelay: '2.2s' }}>
+          <div className="design-project-card animated-paragraph animation-delay-22">
             <div className="design-image web-design-bg"></div>
             <div className="design-overlay">
               <h4>Portfolio Redesigns</h4>
@@ -528,7 +528,7 @@ const Projects = () => (
             </div>
           </div>
 
-          <div className="design-project-card animated-paragraph" style={{ animationDelay: '2.4s' }}>
+          <div className="design-project-card animated-paragraph animation-delay-24">
             <div className="design-image social-media-bg"></div>
             <div className="design-overlay">
               <h4>Social Media Campaign</h4>
