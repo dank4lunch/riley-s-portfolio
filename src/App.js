@@ -23,7 +23,7 @@ const Home = () => (
         <h1>
           Hi, I'm <span className="neon">Thabiso</span>
         </h1>
-        <h2 className="subtitle">System Developer & Code Surgeon</h2>
+        <h2 className="subtitle">Full Stack Developer & Code Surgeon</h2>
         <p className="tagline">
           I create digital solutions that are robust, scalable, and visually stunning.
         </p>
@@ -415,41 +415,164 @@ const Projects = () => (
 
           <div className="project-card animated-paragraph animation-delay-14">
             <a
-              href="https://motormatchup.com/simulation"
+              href="https://liquid.paper.design/?refraction=0.015&edge=0.4&patternBlur=0.005&liquid=0.07&speed=0.3&patternScale=2&background=metal"
               className="project-image-link"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="https://images.pexels.com/photos/33175740/pexels-photo-33175740.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Racing motorcycle tire and suspension representing automotive simulation"
+                src="https://images.pexels.com/photos/1323206/pexels-photo-1323206.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Liquid metal design interface representing paper design platform"
                 className="project-image"
               />
               <div className="image-overlay">
-                <span className="overlay-text">🏎️ Try Simulation</span>
+                <span className="overlay-text">🌊 Explore Liquid Design</span>
               </div>
             </a>
             <div className="project-content">
               <div className="project-tags">
-                <span className="tag automotive">Automotive</span>
-                <span className="tag simulation">Simulation</span>
+                <span className="tag design">Design</span>
+                <span className="tag interactive">Interactive</span>
               </div>
-              <h4>Motor Match Simulation</h4>
+              <h4>Liquid Paper Design</h4>
               <p>
-                Advanced automotive matching and simulation platform that helps users find their perfect vehicle through interactive simulations and comprehensive comparisons.
+                Mesmerizing liquid design platform that creates beautiful, fluid animations and patterns. Perfect for exploring creative digital aesthetics.
               </p>
               <div className="project-tech">
-                <span>Interactive Simulation</span>
-                <span>Data Analytics</span>
-                <span>3D Visualization</span>
+                <span>WebGL</span>
+                <span>Real-time Rendering</span>
+                <span>Interactive Design</span>
               </div>
               <a
-                href="https://motormatchup.com/simulation"
+                href="https://liquid.paper.design/?refraction=0.015&edge=0.4&patternBlur=0.005&liquid=0.07&speed=0.3&patternScale=2&background=metal"
                 className="space-button"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Try Simulation
+                Explore Liquid Design
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card animated-paragraph animation-delay-16">
+            <a
+              href="https://www.napkin.ai/"
+              className="project-image-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="AI-powered design interface representing napkin.ai platform"
+                className="project-image"
+              />
+              <div className="image-overlay">
+                <span className="overlay-text">🤖 Try Napkin AI</span>
+              </div>
+            </a>
+            <div className="project-content">
+              <div className="project-tags">
+                <span className="tag ai">AI-Powered</span>
+                <span className="tag design">Design</span>
+              </div>
+              <h4>Napkin AI</h4>
+              <p>
+                Revolutionary AI-powered design platform that transforms simple ideas into beautiful visuals instantly. Create stunning graphics with just text prompts.
+              </p>
+              <div className="project-tech">
+                <span>AI/ML</span>
+                <span>Design Automation</span>
+                <span>Text-to-Visual</span>
+              </div>
+              <a
+                href="https://www.napkin.ai/"
+                className="space-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Try Napkin AI
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card animated-paragraph animation-delay-18">
+            <a
+              href="http://edclub.com/typingclub"
+              className="project-image-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Hands typing on keyboard representing typing training platform"
+                className="project-image"
+              />
+              <div className="image-overlay">
+                <span className="overlay-text">⌨️ Start Typing</span>
+              </div>
+            </a>
+            <div className="project-content">
+              <div className="project-tags">
+                <span className="tag education">Education</span>
+                <span className="tag training">Training</span>
+              </div>
+              <h4>TypingClub</h4>
+              <p>
+                Comprehensive typing training platform that helps users improve their typing speed and accuracy through structured lessons and interactive exercises.
+              </p>
+              <div className="project-tech">
+                <span>Educational Platform</span>
+                <span>Progress Tracking</span>
+                <span>Interactive Learning</span>
+              </div>
+              <a
+                href="http://edclub.com/typingclub"
+                className="space-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Start Typing
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card animated-paragraph animation-delay-20">
+            <a
+              href="https://buildcores.com/"
+              className="project-image-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Computer components representing buildcores platform"
+                className="project-image"
+              />
+              <div className="image-overlay">
+                <span className="overlay-text">🔧 Explore BuildCores</span>
+              </div>
+            </a>
+            <div className="project-content">
+              <div className="project-tags">
+                <span className="tag hardware">Hardware</span>
+                <span className="tag platform">Platform</span>
+              </div>
+              <h4>BuildCores</h4>
+              <p>
+                Innovative platform for building and customizing computer systems. Provides tools and resources for hardware enthusiasts and professionals.
+              </p>
+              <div className="project-tech">
+                <span>Hardware Integration</span>
+                <span>Configuration Tools</span>
+                <span>System Builder</span>
+              </div>
+              <a
+                href="https://buildcores.com/"
+                className="space-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Explore BuildCores
               </a>
             </div>
           </div>
@@ -577,7 +700,7 @@ const About = () => (
           Motivated and detail-oriented Information Technology student with a strong foundation in system development,
           software engineering, cybersecurity, and front-end web design. Experienced in both academic and practical
           environments through internships and development programs. Recently completed the Accenture Nordics Digital
-          Skills Program, Explore Accelerator (EA), and currently contributing to live development projects as an intern
+          Skills Program, Electronic Arts, and currently contributing to live development projects as an intern
           at The Forge. Skilled at identifying technical issues, implementing solutions, and collaborating within agile teams.
         </p>
       </section>
@@ -713,7 +836,7 @@ const About = () => (
                 <span className="cert-status completed">Completed</span>
               </div>
               <div className="cert-item">
-                <span className="cert-name">Explore Accelerator (EA) Program</span>
+                <span className="cert-name">Electronic Arts Program</span>
                 <span className="cert-status completed">Completed</span>
               </div>
               <div className="cert-item">
