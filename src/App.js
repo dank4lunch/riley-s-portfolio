@@ -700,7 +700,7 @@ const About = () => (
           Motivated and detail-oriented Information Technology student with a strong foundation in system development,
           software engineering, cybersecurity, and front-end web design. Experienced in both academic and practical
           environments through internships and development programs. Recently completed the Accenture Nordics Digital
-          Skills Program, Explore Accelerator (Electronic Arts), and currently contributing to live development projects as an intern
+          Skills Program, Electronic Arts, and currently contributing to live development projects as an intern
           at The Forge. Skilled at identifying technical issues, implementing solutions, and collaborating within agile teams.
         </p>
       </section>
@@ -836,7 +836,7 @@ const About = () => (
                 <span className="cert-status completed">Completed</span>
               </div>
               <div className="cert-item">
-                <span className="cert-name">Explore Accelerator (Electronic Arts) Program</span>
+                <span className="cert-name">Electronic Arts Program</span>
                 <span className="cert-status completed">Completed</span>
               </div>
               <div className="cert-item">
