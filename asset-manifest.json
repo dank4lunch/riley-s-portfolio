@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/riley-s-portfolio/static/css/main.1653f31f.css",
-    "main.js": "/riley-s-portfolio/static/js/main.fff4796f.js",
+    "main.css": "/riley-s-portfolio/static/css/main.3558825c.css",
+    "main.js": "/riley-s-portfolio/static/js/main.f6aa1f12.js",
     "static/js/488.2894d929.chunk.js": "/riley-s-portfolio/static/js/488.2894d929.chunk.js",
     "index.html": "/riley-s-portfolio/index.html",
-    "main.1653f31f.css.map": "/riley-s-portfolio/static/css/main.1653f31f.css.map",
-    "main.fff4796f.js.map": "/riley-s-portfolio/static/js/main.fff4796f.js.map",
+    "main.3558825c.css.map": "/riley-s-portfolio/static/css/main.3558825c.css.map",
+    "main.f6aa1f12.js.map": "/riley-s-portfolio/static/js/main.f6aa1f12.js.map",
     "488.2894d929.chunk.js.map": "/riley-s-portfolio/static/js/488.2894d929.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1653f31f.css",
-    "static/js/main.fff4796f.js"
+    "static/css/main.3558825c.css",
+    "static/js/main.f6aa1f12.js"
   ]
 }
