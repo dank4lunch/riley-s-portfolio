@@ -977,8 +977,14 @@ const Contact = () => {
   );
 };
 
+const portfolioBasePath = '/riley-s-portfolio';
+const routerBasename = window.location.pathname === portfolioBasePath ||
+  window.location.pathname.startsWith(`${portfolioBasePath}/`)
+  ? portfolioBasePath
+  : undefined;
+
 const App = () => (
-  <Router basename="/riley-s-portfolio">
+  <Router basename={routerBasename}>
       <div className="space-app">
         <nav className="space-nav">
           <div className="nav-logo">
