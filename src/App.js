@@ -1,6 +1,6 @@
 // App.js
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, NavLink } from 'react-router-dom';
+import { MemoryRouter as Router, Routes, Route, Link, NavLink } from 'react-router-dom';
 import './App.css';
 import LastFmNowPlaying from './components/LastFmNowPlaying';
 import SystemDevProject from './components/SystemDevProject';
@@ -977,10 +977,8 @@ const Contact = () => {
   );
 };
 
-const portfolioBasePath = '/riley-s-portfolio';
-
 const App = () => (
-  <Router basename={portfolioBasePath}>
+  <Router>
       <div className="space-app">
         <nav className="space-nav">
           <div className="nav-logo">
