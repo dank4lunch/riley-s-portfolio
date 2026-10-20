@@ -1,6 +1,6 @@
 // App.js
 import React, { useState } from 'react';
-import { HashRouter as Router, Routes, Route, Link, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, NavLink } from 'react-router-dom';
 import './App.css';
 import LastFmNowPlaying from './components/LastFmNowPlaying';
 import SystemDevProject from './components/SystemDevProject';
@@ -978,7 +978,7 @@ const Contact = () => {
 };
 
 const App = () => (
-  <Router>
+  <Router basename="/riley-s-portfolio">
       <div className="space-app">
         <nav className="space-nav">
           <div className="nav-logo">
