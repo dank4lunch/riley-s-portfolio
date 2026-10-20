@@ -1,6 +1,6 @@
 // App.js
 import React, { useState } from 'react';
-import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { MemoryRouter as Router, Routes, Route, Link, NavLink } from 'react-router-dom';
 import './App.css';
 import LastFmNowPlaying from './components/LastFmNowPlaying';
 import SystemDevProject from './components/SystemDevProject';
@@ -977,11 +977,8 @@ const Contact = () => {
   );
 };
 
-const App = () => {
-  const [activeLink, setActiveLink] = useState('home');
-
-  return (
-    <Router>
+const App = () => (
+  <Router>
       <div className="space-app">
         <nav className="space-nav">
           <div className="nav-logo">
@@ -989,34 +986,18 @@ const App = () => {
             <span>CosmicDev</span>
           </div>
           <div className="nav-links">
-            <Link
-              to="/"
-              className={activeLink === 'home' ? 'active' : ''}
-              onClick={() => setActiveLink('home')}
-            >
+            <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : '')}>
               <span className="nav-icon">🚀</span> Home
-            </Link>
-            <Link
-              to="/projects"
-              className={activeLink === 'projects' ? 'active' : ''}
-              onClick={() => setActiveLink('projects')}
-            >
+            </NavLink>
+            <NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : '')}>
               <span className="nav-icon">🛰</span> Projects
-            </Link>
-            <Link
-              to="/about"
-              className={activeLink === 'about' ? 'active' : ''}
-              onClick={() => setActiveLink('about')}
-            >
+            </NavLink>
+            <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>
               <span className="nav-icon">👨‍🚀</span> About
-            </Link>
-            <Link
-              to="/contact"
-              className={activeLink === 'contact' ? 'active' : ''}
-              onClick={() => setActiveLink('contact')}
-            >
+            </NavLink>
+            <NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}>
               <span className="nav-icon">📬</span> Contact
-            </Link>
+            </NavLink>
           </div>
         </nav>
         <main>
@@ -1032,6 +1013,5 @@ const App = () => {
       </div>
     </Router>
   );
-};
 
 export default App;
