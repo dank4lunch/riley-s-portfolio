@@ -27,9 +27,9 @@ const Home = () => (
         <p className="tagline">
           I create digital solutions that are robust, scalable, and visually stunning.
         </p>
-        <a href="#projects" className="space-button pulse margin-top-1-5">
+        <Link to="/projects" className="space-button pulse margin-top-1-5">
           View My Work
-        </a>
+        </Link>
       </section>
 
       {/* Animated Now Playing */}
@@ -189,7 +189,7 @@ const Home = () => (
       {/* Call to Action */}
       <section className="cta-section animated-paragraph animation-delay-12">
         <h2>Let's Build Something Amazing</h2>
-        <a href="#contact" className="space-button pulse">Contact Me</a>
+        <Link to="/contact" className="space-button pulse">Contact Me</Link>
       </section>
     </div>
   </div>
