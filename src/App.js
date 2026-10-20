@@ -350,7 +350,7 @@ const Projects = () => (
             <div className="project-content">
               <div className="project-tags">
                 <span className="tag simulation">Simulation</span>
-                <span className="tag 3d">3D</span>
+                <span className="tag three-d">3D</span>
               </div>
               <h4>GeoFS Flight Simulator</h4>
               <p>
