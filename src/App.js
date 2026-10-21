@@ -15,11 +15,6 @@ const Home = () => (
     <div className="content">
       {/* Hero Section */}
       <section className="hero-section animated-paragraph animation-delay-0">
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets%2F7f3c1ec1e84040bdb36d1376cf54246e%2F5620ab671f56458d83857c843479347f?format=webp&width=200"
-          alt="Profile"
-          className="profile-avatar"
-        />
         <h1>
           Hi, I'm <span className="neon">Thabiso</span>
         </h1>
