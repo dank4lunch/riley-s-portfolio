@@ -405,6 +405,26 @@ const About = () => (
             <h4>Problem Solving</h4>
             <p>Demonstrated excellence in critical thinking, adaptability, and innovative solution development</p>
           </div>
+
+          <div className="achievement-card">
+            <h4><a href="https://ekurhulenicitycollege.co.za" target="_blank" rel="noreferrer">ekurhulenicitycollege.co.za</a></h4>
+            <p>College website project</p>
+          </div>
+
+          <div className="achievement-card">
+            <h4><a href="https://tkbnproperties.co.za" target="_blank" rel="noreferrer">tkbnproperties.co.za</a></h4>
+            <p>Property website project</p>
+          </div>
+
+          <div className="achievement-card">
+            <h4><a href="https://sapl.online/leagues" target="_blank" rel="noreferrer">sapl.online/leagues</a></h4>
+            <p>Sports league platform</p>
+          </div>
+
+          <div className="achievement-card">
+            <h4><a href="https://fadr.com/stems" target="_blank" rel="noreferrer">fadr.com/stems</a></h4>
+            <p>Music stems platform</p>
+          </div>
         </div>
       </section>
 
