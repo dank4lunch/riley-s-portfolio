@@ -3,8 +3,6 @@ import React, { useState } from 'react';
 import { MemoryRouter as Router, Routes, Route, Link, NavLink } from 'react-router-dom';
 import './App.css';
 import LastFmNowPlaying from './components/LastFmNowPlaying';
-import SystemDevProject from './components/SystemDevProject';
-import TaskManagerProject from './components/TaskManagerProject';
 
 const Home = () => (
   <div className="space-page fade-in">
@@ -22,9 +20,6 @@ const Home = () => (
         <p className="tagline">
           I create digital solutions that are robust, scalable, and visually stunning.
         </p>
-        <Link to="/projects" className="space-button pulse margin-top-1-5">
-          View My Work
-        </Link>
       </section>
 
       {/* Animated Now Playing */}
@@ -984,9 +979,6 @@ const App = () => (
             <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : '')}>
               <span className="nav-icon">🚀</span> Home
             </NavLink>
-            <NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : '')}>
-              <span className="nav-icon">🛰</span> Projects
-            </NavLink>
             <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>
               <span className="nav-icon">👨‍🚀</span> About
             </NavLink>
@@ -998,11 +990,8 @@ const App = () => (
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/system-dev" element={<SystemDevProject />} />
-            <Route path="/task-manager" element={<TaskManagerProject />} />
           </Routes>
         </main>
       </div>
