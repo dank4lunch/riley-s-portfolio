@@ -462,6 +462,43 @@ const About = () => (
   </div>
 );
 
+const Projects = () => (
+  <div className="space-page fade-in">
+    <div className="stars"></div>
+    <div className="twinkling"></div>
+    <div className="shooting-stars"></div>
+    <div className="content">
+      <section className="about-hero animated-paragraph animation-delay-0">
+        <h2>My <span className="neon">Projects</span></h2>
+        <p className="about-subtitle">Selected work and live builds</p>
+      </section>
+
+      <section className="project-grid animated-paragraph animation-delay-2" aria-label="Projects">
+        <a className="project-card" href="https://ekurhulenicitycollege.co.za" target="_blank" rel="noreferrer">
+          <div className="planet" aria-hidden="true"></div>
+          <h3>ekurhulenicitycollege.co.za</h3>
+          <p>College website project</p>
+        </a>
+        <a className="project-card" href="https://tkbnproperties.co.za" target="_blank" rel="noreferrer">
+          <div className="planet" aria-hidden="true"></div>
+          <h3>tkbnproperties.co.za</h3>
+          <p>Property website project</p>
+        </a>
+        <a className="project-card" href="https://sapl.online/leagues" target="_blank" rel="noreferrer">
+          <div className="planet" aria-hidden="true"></div>
+          <h3>sapl.online/leagues</h3>
+          <p>Sports league platform</p>
+        </a>
+        <a className="project-card" href="https://fadr.com/stems" target="_blank" rel="noreferrer">
+          <div className="planet" aria-hidden="true"></div>
+          <h3>fadr.com/stems</h3>
+          <p>Music stems platform</p>
+        </a>
+      </section>
+    </div>
+  </div>
+);
+
 const Contact = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
 
@@ -521,6 +558,9 @@ const App = () => (
             <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>
               <span className="nav-icon">👨‍🚀</span> About
             </NavLink>
+            <NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : '')}>
+              <span className="nav-icon">🪐</span> Projects
+            </NavLink>
             <NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}>
               <span className="nav-icon">📬</span> Contact
             </NavLink>
@@ -530,6 +570,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
