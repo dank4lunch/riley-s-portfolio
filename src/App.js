@@ -480,46 +480,39 @@ const Projects = () => (
             url: 'https://ekurhulenicitycollege.co.za',
             type: 'Education website',
             description: 'A clear, responsive college website for sharing courses, information, and student resources.',
-            image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=80',
           },
           {
             title: 'TKBN Properties',
             url: 'https://tkbnproperties.co.za',
             type: 'Property website',
-            description: 'A polished property experience that helps visitors explore listings and find their next home.',
-            image: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80',
+            description: 'A polished property experience that helps visitors explore listings and find their next home.'
           },
           {
             title: 'SAPL Leagues',
             url: 'https://sapl.online/leagues',
             type: 'Sports platform',
-            description: 'A simple league hub for browsing competitions, teams, and match information in one place.',
-            image: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=900&q=80',
+            description: 'A simple league hub for browsing competitions, teams, and match information in one place.'
           },
           {
             title: 'Fadr Stems',
             url: 'https://fadr.com/stems',
             type: 'Music platform',
-            description: 'A creative music tool for working with stems and discovering new ways to shape a track.',
-            image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=900&q=80',
+            description: 'A creative music tool for working with stems and discovering new ways to shape a track.'
           },
           {
             title: 'Findweed',
             url: 'https://findweed.co.za',
             type: 'Directory website',
-            description: 'A focused directory concept designed to make discovering relevant local services easier.',
-            image: 'https://images.unsplash.com/photo-1534710961216-75c88202f43e?auto=format&fit=crop&w=900&q=80',
+            description: 'A focused directory concept designed to make discovering relevant local services easier.'
           },
           {
             title: 'Mwanza Rick Solution',
             url: 'https://mwanza-rick-solution.vercel.app',
             type: 'Business website',
-            description: 'A modern business landing page built to introduce a service and guide visitors toward action.',
-            image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80',
+            description: 'A modern business landing page built to introduce a service and guide visitors toward action.'
           },
         ].map((project) => (
           <article className="project-card" key={project.url}>
-            <img className="project-image" src={project.image} alt={`${project.title} project preview`} />
             <div className="project-card-content">
               <span className="project-type">{project.type}</span>
               <h3>{project.title}</h3>
