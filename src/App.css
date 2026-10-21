@@ -1458,24 +1458,26 @@ a {
   font-size: 1.1rem;
 }
 
-/* Enhanced Project Grid */
+/* Compact Project Grid */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
-  margin-bottom: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem auto 2rem;
+  max-width: 980px;
 }
 
-/* Enhanced Project Cards */
+/* Compact Project Cards */
 .project-card {
   background: rgba(18, 26, 42, 0.8);
-  border: 2px solid transparent;
-  border-radius: 20px;
+  border: 1px solid rgba(0, 247, 255, 0.28);
+  border-radius: 12px;
   overflow: hidden;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
   position: relative;
   height: auto;
-  min-height: 450px;
+  min-height: 0;
+  padding: 1rem;
 }
 
 .project-card.featured {
@@ -1759,7 +1761,11 @@ a {
 
   .project-grid {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 0.75rem;
+  }
+
+  .project-card {
+    padding: 0.85rem;
   }
 
   .project-card.featured {
